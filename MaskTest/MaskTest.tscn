@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://splat.png" type="Texture" id=1]
+[ext_resource path="res://Card.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2( 300.919, 272.927 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
+[node name="Light2D" type="Light2D" parent="."]
+position = Vector2( 5.63639, -2.96834 )
+texture = ExtResource( 1 )
+mode = 2
